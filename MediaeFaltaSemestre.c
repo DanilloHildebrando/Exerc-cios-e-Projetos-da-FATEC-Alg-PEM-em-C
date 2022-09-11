@@ -16,7 +16,7 @@ int main()
     scanf("%f %f %i", &n1, &n2, &fal);
     
     
-    if(fal > (20 * 0.3)){
+    if(fal > (6)){
         printf("O aluno reprovou por faltas");
     } else {
         med = (n1 + n2) / 2;
