@@ -24,15 +24,15 @@ int main()
     } else {
            m1 = velA + 10;
            if(velC <= m1){
-           printf("O veículo estava acima da velocidade e será multado em 50,00R$");    
+                printf("O veículo estava acima da velocidade e será multado em 50,00R$");    
     } else {
-             m2 = velA + 30; 
-             if(velC <= m2){
-                 printf("O veículo estava acima da velocidade e será multado em 100,00R$"); 
+                m2 = velA + 30; 
+                if(velC <= m2){
+                    printf("O veículo estava acima da velocidade e será multado em 100,00R$"); 
     } else {
-                m3 = velA + 31;
-                if(velC >= m3){
-                    printf("O veículo estava acima da velocidade e será multado em 200,00R$"); 
+                    m3 = velA + 31;
+                    if(velC >= m3){
+                        printf("O veículo estava acima da velocidade e será multado em 200,00R$"); 
     }
 
     return 0;
