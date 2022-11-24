@@ -22,14 +22,15 @@ scanf("%i", &n);
 
 resto = n % 2;
 
+  
 if(resto == 0){
 
-printf("O número é par");
+  printf("O número é par");
 
 } else {
 
-printf("O número é impar");
+    printf("O número é impar");
 
-}
+  }
 
 }
