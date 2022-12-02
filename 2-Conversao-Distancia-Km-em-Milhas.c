@@ -17,7 +17,6 @@ int main()
 float kM, dM;
 
 printf("Escreva a distância em Km:\n");
-
 scanf("%f", &kM);
 
 dM = kM / 1.60934;
