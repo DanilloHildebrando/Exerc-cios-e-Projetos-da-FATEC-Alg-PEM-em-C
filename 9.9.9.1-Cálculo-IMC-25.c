@@ -1,9 +1,6 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
+// Este algoritmo usa uma matriz para veririfcar se o IMC de 5 pessoas está igual a 25 e caso diferente quantos kilos precisa perder ou ganhar
 
 *******************************************************************************/
 #include <stdio.h>
