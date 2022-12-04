@@ -1,14 +1,12 @@
 /******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
+// Este algoritmo verifica a partir dos preços do álcool e da gasolina, qual é mais vantajoso para compra
+                           
 
 *******************************************************************************/
 
 #include <stdio.h>
 
-// Este algoritmo verifica a partir dos preços do álcool e da gasolina, qual é mais vantajoso para compra
 
 int main()
 
@@ -28,11 +26,11 @@ setentapc = 0.7*gasolina;
 
 if(alcool <= setentapc ){
 
-printf("O álcool é mais vantajoso");
+  printf("O álcool é mais vantajoso");
 
-} else {
+ }else {
 
-printf("A gasolina é mais vantajosa");
+    printf("A gasolina é mais vantajosa");
 
 }
 
