@@ -1,9 +1,6 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
+// Este algoritmo verifica entre números digitados qual o maior, menor e a média. O requisito para ele para é ser digitado um valor que não seja 0
 
 *******************************************************************************/
 #include <stdio.h>
@@ -26,8 +23,8 @@ int main()
                         if(n > maior){
                             maior = n;
                         }
-                        if(n < menor && n != 0){
-                            menor = n;
+                            if(n < menor && n != 0){
+                                menor = n;
                         }
                     }
                  x++;
