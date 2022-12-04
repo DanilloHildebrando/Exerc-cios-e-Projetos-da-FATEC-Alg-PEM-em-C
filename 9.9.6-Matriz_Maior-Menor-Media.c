@@ -1,19 +1,10 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
+// Este algoritmo armazena em uma matriz as temperaturas máxima e mínima de dez dias, respectivamente nas colunas 0 e 1, na coluna 2 ele cálcula as variações.
+// Posteriormente ele retorna a maior, menor e maior variação temperatura de todos esses dias.
 
 *******************************************************************************/
 
-/* 1 – Construa um programa em C que utiliza uma matriz 10×3 que armazene as  temperaturas máxima e minima do dia, 
-assim como a media de temperatura na ultima coluna.  Crie um menu de escolha que ofereça as seguintes informações:
-
-temperatura minima de todos os dias.
-temperatura máxima de todos os dias.
-maior variação de temperatura de todos os dias.
-Sair do programa.*/
 
 #include <stdio.h>
 
@@ -36,9 +27,9 @@ int main()
             menorTem = matriz[x][0];
             maiorTem = matriz[x][1];
         
-        if(maiorVar < varTem[x]){
-            maiorVar = varTem[x];
-        }
+            if(maiorVar < varTem[x]){
+                maiorVar = varTem[x];
+            }
         } else {
             if(matriz[x][0] < menorTem)  menorTem = matriz[x][0];
             if(matriz[x][1] > maiorTem)  maiorTem = matriz[x][1];
