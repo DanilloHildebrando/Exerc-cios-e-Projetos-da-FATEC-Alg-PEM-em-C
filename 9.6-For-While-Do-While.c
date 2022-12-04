@@ -1,9 +1,6 @@
 /******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
+// Este exercício explora as estruturas for, while e do while em três algoritmos diferentes
 *******************************************************************************/
 
 #include <stdio.h>
@@ -21,7 +18,7 @@ for(i=0; i<20; i++)
    printf("%i\n", r);
 }
 //a- reescreva com o laço enquanto faça (while)
-/*int main()
+int main()
 {
 int i=0, a, b, r;
 
@@ -35,8 +32,8 @@ while(i<20)
    i++;
 }
 }
-*/
-/*b- reescreva com o laço faça enquanto (do while)
+
+//b- reescreva com o laço faça enquanto (do while)
 int main()
 {
 int i=0, a, b, r;
@@ -51,4 +48,3 @@ do
    
 }while(i<20);
 }
-*/
