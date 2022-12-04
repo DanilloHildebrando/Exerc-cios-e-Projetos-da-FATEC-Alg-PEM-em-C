@@ -1,13 +1,9 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
+// Este algoritmo faz um caixa eletrônico em looping que se encerra caso o usuário digite 1
 
 *******************************************************************************/
 
-//5- Reutilizando o algoritmo do caixa eletrônico, implemente um laço faça enquanto que verifique se o usuário deseja continuar, caso a variável coletada for igual 1 reinicie o laço, mantendo o valor do saldo.
 
 
 #include <stdio.h>
