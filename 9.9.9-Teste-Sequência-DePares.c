@@ -1,10 +1,6 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
+// Este algoritmo verifica entre 30 números qual a maior sequência de pares
 *******************************************************************************/
 #include <stdio.h>
 
@@ -28,9 +24,9 @@ int main()
                         if(testePar != 0){
                             par = 0;
                         } else {
-                        if(testePar == 0 && seqPar > 0){
-                            par++;
-                            if(par > seqPar){
+                            	if(testePar == 0 && seqPar > 0){
+                                par++;
+                                if(par > seqPar){
                                 seqPar = par;
                              } 
                             }
