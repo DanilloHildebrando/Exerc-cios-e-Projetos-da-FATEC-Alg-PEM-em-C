@@ -1,9 +1,6 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
+// Este algoritmo calcula o bonus de salário de um funcioário baseado no tempo de trabalho
 
 *******************************************************************************/
 #include <stdio.h>
@@ -20,9 +17,9 @@ int main()
         sal20 = saL + (saL * 0.2);
         printf("O salário acrescido do bônus de 20%% pelo tempo de serviço é: R$ %.2f ", sal20);
         
-    } else {
-        sal10 = saL + (saL * 0.1);
-        printf("O salário acrescido do bônus de 10%% pelo tempo de serviço é: R$ %.2f", sal10);
+        } else {
+            sal10 = saL + (saL * 0.1);
+            printf("O salário acrescido do bônus de 10%% pelo tempo de serviço é: R$ %.2f", sal10);
     }
 
     return 0;
