@@ -1,9 +1,6 @@
 /******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
+// Este algoritmo verifica se os números digitados são múltiplos de 2 ou 3 dentre 10 números inteiros aleatórios, conta e diz quantos são de cada
 *******************************************************************************/
 
 #include <stdio.h>
