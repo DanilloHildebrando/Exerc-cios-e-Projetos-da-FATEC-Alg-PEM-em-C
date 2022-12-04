@@ -1,13 +1,8 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
+// Este algorítmo compara os valores das colunas de uma matriz para identificar se eles corresdem a valores de triângulos, isóceles, escalenos ou equiláteros.
 
 *******************************************************************************/
-/*2 – Crie um programa que armazene em uma matriz 10×3 em cada uma das colunas armazene o tamanho de uma aresta de um triangulo, 
-ao final exiba o percentual de triângulos isoceles=2, equiláteros=3 e escalenos=0*/
 
 #include <stdio.h>
 
