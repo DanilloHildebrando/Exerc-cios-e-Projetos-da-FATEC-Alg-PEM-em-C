@@ -1,14 +1,10 @@
 /******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
+// Este algoritmo verifica se um número digitado pelo usuário é par ou ímpar
 
 *******************************************************************************/
 
 #include <stdio.h>
-
-// Este algoritmo verifica se um número digitado pelo usuário é par ou ímpar
 
 int main()
 
