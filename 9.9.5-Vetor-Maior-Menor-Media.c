@@ -1,13 +1,6 @@
 /******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
+// Este algoritmo identifica dentro de 20 números digitados em um vetor qual o maior, o menor e a média de todos
 *******************************************************************************/
-
-/*c – faça um algoritmo que implemente um vetor de 20 posições, leia as 20 posições e 
-identifique em um novo laço, qual o maior e menor numero informado e qual a media dos números informados..*/
 
 
 #include <stdio.h>
@@ -28,8 +21,8 @@ int main()
         if (vetor[x] > maior){
             maior = vetor[x];
         } 
-        if (vetor[x] < menor){
-            menor = vetor[x];
+          if (vetor[x] < menor){
+              menor = vetor[x];
         }
         
         cont++;
