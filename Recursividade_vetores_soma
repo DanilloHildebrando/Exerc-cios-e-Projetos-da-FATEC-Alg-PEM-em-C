@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int soma(int i, int n, int vet[])
+{
+    if (i == n - 1) return vet[i];
+    else {
+        int aux;
+        aux = vet[n -2] + vet [n-1];
+        return aux + vet[n];
+    }
+
+}
+
+int main()
+{
+    int vet[] = {1, 4, 3};
+    printf("%d - %d", 3, soma(0 ,1, vet));
+}
