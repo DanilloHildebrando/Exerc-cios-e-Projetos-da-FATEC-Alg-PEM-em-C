@@ -20,7 +20,8 @@ if(N == 0) return 0;
 
 else 
 {
-    return somaQuadrado(N-1) + N * N;
+    int aux = somaQuadrado(N-1);
+    return aux + N * N;
 
 }
 
