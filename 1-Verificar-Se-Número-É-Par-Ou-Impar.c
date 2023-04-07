@@ -12,11 +12,11 @@ int main()
 
 int n, resto;
 
-printf("Digite um número inteiro: ");
+  printf("Digite um número inteiro: ");
 
-scanf("%i", &n);
+  scanf("%i", &n);
 
-resto = n % 2;
+  resto = n % 2;
 
   
 if(resto == 0){
