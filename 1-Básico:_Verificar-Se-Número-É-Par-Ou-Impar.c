@@ -19,13 +19,13 @@ int n, resto;
   resto = n % 2;
 
   
-if(resto == 0){
+  if(resto == 0){
 
-  printf("O número é par");
+    printf("O número é par");
 
-} else {
+    } else {
 
-    printf("O número é impar");
+      printf("O número é impar");
 
   }
 
