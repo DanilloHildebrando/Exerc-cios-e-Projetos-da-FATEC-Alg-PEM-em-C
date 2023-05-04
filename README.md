@@ -9,8 +9,7 @@ Aqui estão os resultados de exercícios que resolvi na disciplina Algoritmos e 
 
 ##   Organização
 
-Todos os exercícios que começam com a notação EA - são parte da disciplina de algoritmos, ministrada no primeiro semestre e todos que começam com PA significam que são projetos desta mesma disciplina. 
-Os exercícios iniciados com EP - são exercícios da disciplina Programação Estruturada e Modular, ministrada no segundo semestre e tdos que começam com PP são projetos desta matéria
+São três níveis de dificuldade e consequentemente, mostras variadas da lógica de programação que desenvolvi, são eles os níveis 1 - Básico, 2 - Intermediário e o 3 - Projeto.
 
 ###  Técnologia
 
