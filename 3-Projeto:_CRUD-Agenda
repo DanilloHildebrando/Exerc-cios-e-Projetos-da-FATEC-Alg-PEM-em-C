@@ -103,3 +103,9 @@ int main()
 		}
 	
 }
+
+
+
+/*if(num_fichas== 0) return -1;
+    if(strcmp(procurado, vetor[num_fichas-1].nome) == 0) return num_fichas-1;
+    return procurar (procurado, vetor, num_fichas - 1);*/
