@@ -31,6 +31,15 @@ void aumentarContraste(**int original, int linhas, int colunas, int maxValor)
 	}
 }
 
+void diminuirContraste(**int original, int linhas, int colunas, int maxValor)
+{ int l, c;
+    for(l=0; l<linhas; l++)
+	{	for(c=0; c<colunas; c++)
+		{	original[l][c] = maxValor/ (1.0 + exp(-(2.0 * original[l][c]/(float)maxValor - 1.0)));
+		}
+	}
+}
+
 void borrar(int** original, int linhas, int colunas, int tamanhoBorrao)
 {	int l, c;
 	/*
