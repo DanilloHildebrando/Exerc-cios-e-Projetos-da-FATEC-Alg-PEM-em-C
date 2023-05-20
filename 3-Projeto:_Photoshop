@@ -22,7 +22,7 @@ void diminuirBrilho(int** original, int linhas, int colunas, int maxValor)
 	}
 }
 
-void aumentarContraste(**int original, int linhas, int colunas, int maxValor)
+void aumentarContraste(int** original, int linhas, int colunas, int maxValor)
 { int l, c;
     for(l=0; l<linhas; l++)
 	{	for(c=0; c<colunas; c++)
@@ -31,13 +31,27 @@ void aumentarContraste(**int original, int linhas, int colunas, int maxValor)
 	}
 }
 
-void diminuirContraste(**int original, int linhas, int colunas, int maxValor)
+void diminuirContraste(int** original, int linhas, int colunas, int maxValor)
 { int l, c;
     for(l=0; l<linhas; l++)
 	{	for(c=0; c<colunas; c++)
 		{	original[l][c] = maxValor/ (1.0 + exp(-(2.0 * original[l][c]/(float)maxValor - 1.0)));
 		}
 	}
+}
+
+void espelhar(int** original, int linhas, int colunas, int maxValor)
+{int l, c;
+    for(l=0; l<linhas; l++)
+    {
+        for(c=0; c<colunas; c++)
+        {
+            int aux = original[l][c];
+            original[l][c] = original[l][(colunas-1)-c];
+            original[l][(colunas-1)-c] = aux;
+            
+        }
+    }
 }
 
 void borrar(int** original, int linhas, int colunas, int tamanhoBorrao)
@@ -112,7 +126,7 @@ int main(int argc, char * argv[])
 	char nomeArquivo[100]="";
 	char nomeArquivoLeitura[100]="";
 	char nomeArquivoEscrita[100]="";
-	while(opcao[0] != '9')
+	while(opcao[0] != 'a')
 	{	printf("\n\nMini-photoshop\n\n");
 		printf("1) Ler imagem\n");	
 		printf("2) Gravar imagem\n");	
@@ -122,9 +136,10 @@ int main(int argc, char * argv[])
 		printf("6) Diminuir contraste\n");
 		printf("7) Desfocar\n");
 		printf("8) Fazer moldura\n");
-		printf("9) Sair\n");
+		printf("9) Espelhar\n");
+		printf("a) Sair\n");
 		printf("\nEntre a opcao desejada: ");	
-		fgets(opcao, 10, stdin);
+		fgets(opcao, 11, stdin);
 		switch(opcao[0])
 		{	case '1':
 				printf("\n\nEntre com o nome da imagem (sem extensao): ");
@@ -158,10 +173,14 @@ int main(int argc, char * argv[])
 			case '8':
 				//moldura(mat, linhas, colunas, maxValor);
 				break;
+			case '9':
+			    espelhar(mat, linhas, colunas, maxValor);
+			    break;
 		}
 	}
 	return 0;
 }
+
 
 
 
