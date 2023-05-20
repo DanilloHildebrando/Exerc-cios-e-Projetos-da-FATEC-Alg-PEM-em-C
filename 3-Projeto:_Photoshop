@@ -162,3 +162,14 @@ int main(int argc, char * argv[])
 	}
 	return 0;
 }
+
+
+
+for(l=0; l<linhas; l++)
+{
+	for(c=0; c<colunas/2; c++)
+	
+{
+int aux = original[l][c]
+original[l][c]= original[l][colunas-1-c];
+oeiginal[l][colunas-1-c] = aux
