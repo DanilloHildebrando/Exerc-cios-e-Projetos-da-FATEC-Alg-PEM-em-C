@@ -41,7 +41,10 @@ void diminuirContraste(int** original, int linhas, int colunas, int maxValor)
 }
 
 void espelhar(int** original, int linhas, int colunas, int maxValor)
-{int l, c;
+{int l, c, x;
+printf("Digite 1 para espelhar na horizontal ou 2 para vertical?");
+scanf("%i", &x);
+    if(x == 1){
     for(l=0; l<linhas; l++)
     {
         for(c=0; c<colunas/2; c++)
@@ -51,8 +54,39 @@ void espelhar(int** original, int linhas, int colunas, int maxValor)
             original[l][(colunas-1)-c] = aux;
             
         }
-    }
+    }  
+    
+    } else {
+       for(c=0; c<colunas; c++)
+    {
+        for(l=0; l<linhas/2; l++)
+        {
+            int aux = original[l][c];
+            original[l][c] = original[(linhas-1)-l][c];
+            original[(linhas-1)-l][c] = aux;
+            
+        }
+	
+	}
+	}
 }
+
+void moldura(int** original, int linhas, int colunas, int maxValor)
+{int l, c, x, y;
+    for(l=0; l<linhas; l++)
+    {
+        for(c=0; c<colunas; c++)
+        {
+            original[0][c] = 0;
+            original[linhas - 1][c] = 0;
+            original[l][0] = 0;
+            original[l][colunas - 1] = 0;
+        }
+    }
+    
+}
+
+
 
 void borrar(int** original, int linhas, int colunas, int tamanhoBorrao)
 {	int l, c;
