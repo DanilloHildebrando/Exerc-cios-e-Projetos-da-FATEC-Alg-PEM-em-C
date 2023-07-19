@@ -5,11 +5,11 @@
 
 ##  Sobre este projeto
 
-Aqui estão os resultados de exercícios que resolvi na disciplina Algoritmos e Programação Estruturada e Modular, do curso de Análise e Desenvolvimento de Sistemas da FATEC Ipiranga. Eles estão organizados em níveis de dificuldade crescente, os primeiros são mais simples ficando mais complexos no decorrer da listagem. Todos estão em C, conforme solicitados pelos professores, todavia, possuo outros dois repositórios onde pretendo refazer os mesmos em Java e Python.
+Aqui estão os resultados de exercícios que resolvi na disciplina Algoritmos e Programação Estruturada e Modular, do curso de Análise e Desenvolvimento de Sistemas da FATEC Ipiranga. Eles estão organizados em níveis de dificuldade decrescente, os primeiros são mais complexos ficando mais simples no decorrer da listagem, a escolha desta forma busca privilegiar momentos em que usei mais os conhecimentos de programação. Todos estão em C, conforme solicitados pelos professores, todavia, possuo outros dois repositórios onde uso para treino de Python e Java.
 
 ##   Organização
 
-São três níveis de dificuldade e consequentemente, mostras variadas da lógica de programação que desenvolvi, são eles os níveis 1 - Básico, 2 - Intermediário e o 3 - Projeto.
+São três níveis de dificuldade e consequentemente, mostras variadas da lógica de programação que desenvolvi, são eles os níveis 1 - Projeto, 2 - Intermediário e o 3 - Básico.
 
 ###  Técnologia
 
